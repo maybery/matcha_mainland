@@ -49,7 +49,7 @@ except ImportError:
 # ====== 可调参数 ======
 LIST_URL = "https://www.marukyu-koyamaen.net/category/select/cid/312/"
 # 关注的商品：名称里包含任意一个关键词（不区分大小写）就算命中
-WATCH_KEYWORDS = ["又玄", "Yugen","五十铃"]
+WATCH_KEYWORDS = ["又玄", "Yugen","五十铃","永寿"]
 # 额外按商品编号前缀匹配（旧站 Yugen 的编号以 1171 开头，如 1171020C1=20g、1171040C1=40g）
 WATCH_SKU_PREFIX = ["1171"]
 INTERVAL = 300         # 常驻模式检查间隔（秒）
